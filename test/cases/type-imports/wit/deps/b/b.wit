@@ -1,7 +1,11 @@
 package local:b;
 
 interface foo {
-  record bar {
-    thing: u8
+  record output {
+    out-thing: u8,
+  }
+
+  record input {
+    in-thing: u8,
   }
 }

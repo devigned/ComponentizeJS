@@ -1,3 +1,3 @@
-export function test () {
-  return { thing: 5 };
+export function test(input) {
+  return { outThing: input.inThing };
 }

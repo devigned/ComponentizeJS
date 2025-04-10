@@ -1,7 +1,7 @@
 package local:a;
 
 world type-imports {
-  use local:b/foo.{bar};
+  use local:b/foo.{input, output};
 
-  export test: func() -> bar;
+  export test: func(input: input) -> output;
 }
